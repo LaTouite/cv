@@ -1,13 +1,44 @@
-body {
+#pic-name {
+  background-color: #da9833;
+  height: 200px;
+  text-align: center;
+  align-items: center;
+}
+
+#my-pic {
+}
+
+#my-search {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#links {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 30px;
+}
+
+.link:hover {
+  color: grey;
+}
+
+#avant {
+  background-color: red;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+/*body {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
-a {
-  text-decoration: none !important;
-  color: black !important;
-}
 
 a:hover {
   text-decoration: none !important;
@@ -33,3 +64,4 @@ iframe {
   flex-direction: column;
   align-items: center;
 }
+*/
