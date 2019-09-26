@@ -1,5 +1,5 @@
 #pic-name {
-  background-color: #da9833;
+  background-color: #f77754;
   height: 200px;
   text-align: center;
   align-items: center;
@@ -21,16 +21,35 @@
 
 .link-icon {
   color: white;
+  /*text-shadow: 0px 0px 5px grey;*/
 }
 
 .link-icon:hover {
-  color: grey;
+  color: #a4d1c8;
+  text-shadow: 0px 0px 10px grey;
 }
 
 #avant {
-  background-color: red;
+  background-color: #a4d1c8;
 }
 
-#videos {
+#wagon {
+  background-color: #e4f2f0;
+}
+
+.ligne {
+  margin-top: 30px;
   display: flex;
+  justify-content: space-evenly;
+}
+
+.websites {
+  opacity: 0.5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px grey;
+}
+
+.websites:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 10px grey;
 }
