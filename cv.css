@@ -13,10 +13,17 @@
   padding-right: 150px;
 }
 
-#links {
+#links, #insert {
   display: flex;
   justify-content: space-around;
+}
+
+.link-icon {
   font-size: 30px;
+}
+
+#insert {
+  font-size: 10px;
 }
 
 .link-icon {
