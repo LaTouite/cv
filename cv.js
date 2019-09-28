@@ -14,6 +14,30 @@ if (document.querySelector("#email")) {
   insert("#email", "#insert-email");
 };
 
+if (document.querySelector("#job1")) {
+  insert("#next-job", "#job1");
+};
+
+if (document.querySelector("#job1")) {
+  insert("#next-job", "#job2");
+};
+
+// if (document.querySelector("#job2")) {
+//   insert("#next-job", "#job2");
+// };
+
+// if (document.querySelector("#job2")) {
+//   insert("#next-job", "#job3");
+// };
+
+if (document.querySelector("#previous-job")) {
+  insert("#previous-job", "#job1");
+};
+
+if (document.querySelector("#previous-job")) {
+  insert("#previous-job", "#job2");
+};
+
 // const insert = (cssSelector1, cssSelector2, text) => {
 //   const tel = document.querySelector(cssSelector1);
 //   const insertTel = document.querySelector(cssSelector2);

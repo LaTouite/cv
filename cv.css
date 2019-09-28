@@ -12,7 +12,7 @@ h6{
 }
 
 #pic-name {
-  background-color: #f77754;
+  background-color: #e6a400;
   height: 200px;
   text-align: center;
   align-items: center;
@@ -53,24 +53,21 @@ h6{
 
 .link-icon {
   font-size: 30px;
+  color: #e4f2f0;
+  /*text-shadow: 0px 0px 5px grey;*/
 }
 
 #insert {
   font-size: 10px;
 }
 
-.link-icon {
-  color: white;
-  /*text-shadow: 0px 0px 5px grey;*/
-}
-
 .link-icon:hover {
-  color: #a4d1c8;
-  text-shadow: 0px 0px 10px grey;
+  color: #64b2cd;
+/*  text-shadow: 0px 0px 2px grey;*/
 }
 
 #avant {
-  background-color: #a4d1c8;
+  background-color: #64b2cd;
 }
 
 #wagon {
@@ -100,4 +97,8 @@ h6{
 
 #avant {
   padding-left: 20px;
+}
+
+.parcours {
+  height: 150px;
 }
