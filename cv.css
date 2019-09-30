@@ -1,35 +1,54 @@
-body{
+body {
   height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
-p {
-  padding-right: 0 !important;
-}
-
-h5 {
-  padding-left: 10px;
-}
-
-#parcours {
-  background-color: #64b2cd;
-}
-
-#formations  {
-  background-color: #64b2cd;
-}
-
-#skills {
-  background-color: #64b2cd;
+body div {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   color: white;
 }
 
+h5 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 h6{
   padding-left: 20px;
   padding-right: 20px;
   color: white;
+}
+
+p {
+  padding-right: 0 !important;
+}
+
+#during, #before {
+  font-weight: bold;
+}
+
+.off {
+  color: grey;
+}
+
+.on{
+  color: #64b2cd;
+}
+
+#during:hover {
+  color: #64b2cd;
+}
+
+#before:hover {
+  color: #64b2cd;
+}
+
+#batch {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .row {
@@ -78,9 +97,22 @@ h6{
   padding-left: 10px;
 }
 
+#insert-tel, #insert-email {
+  font-size: 15px;
+}
+
 .nav {
   display: flex;
   justify-content: space-evenly;
+}
+
+.nav > div {
+  width: 339px;
+  text-align: justify;
+}
+
+.nav > div > h5 {
+  height: 100px;
 }
 
 #avant, .ligne {
@@ -151,22 +183,14 @@ p.col-5, p.col-4, p.col-7 {
   text-align: center;
 }
 
-#during, #before {
-  font-weight: bold;
+#parcours {
+  background-color: #64b2cd;
 }
 
-.off {
-  color: grey;
+#formations  {
+  background-color: #64b2cd;
 }
 
-.on{
-  color: #64b2cd;
-}
-
-#during:hover {
-  color: #64b2cd;
-}
-
-#before:hover {
-  color: #64b2cd;
+#skills {
+  background-color: #64b2cd;
 }
