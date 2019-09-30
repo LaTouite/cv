@@ -30,7 +30,7 @@ if (document.querySelector("#email")) {
   insert("#email", "#insert-email");
 };
 
-if (document.querySelector("#wagon")) {
+if (document.querySelector(".nav")) {
   add("#before", "#wagon", "d-none");
   remove("#before", "#avant", "d-none");
   add("#before", "#before", "on");

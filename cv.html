@@ -32,16 +32,16 @@
         </div>
       </div>
     </div>
-    <div class='content p-3'>
+    <div class='content'>
 
       <!-- NAVBAR -->
-      <div class='nav'>
+      <div class='nav pt-4'>
         <p class='on' id='during'>DURING LE WAGON...</p>
         <p class='off' id='before'>BEFORE LE WAGON...</p>
       </div>
 
       <!-- WORKS DURING LE WAGON -->
-      <div id='wagon'>
+      <div id='wagon' class='p-3'>
         <div class='nav ligne'>
           <div>
             <a href="https://joorney-rbnb.herokuapp.com" target="_blank"><img src="player.png" alt="Mon projet Player" width="339" height="191" class='websites'></a>
@@ -54,44 +54,44 @@
       </div>
 
       <!-- FORMATION ET PARCOURS PRO -->
-      <div class='d-none' id='avant'>
-        <div class='parcours mt-5 pl-5 pr-5'>
+      <div id='avant' class='d-none p-3'>
+        <div class='parcours pl-5 pr-5 border-left'>
           <h5 id='parcours' class='mb-4'>Parcours professionnel</h5>
-          <div id='job1'>
+          <div id='job1' class='jobs'>
             <div class='row'>
-              <p class='col-4'>Depuis janvier 2018</p>
-              <p class='col-8'>BNP Paribas
+              <p class='col-5'>Depuis janvier 2018</p>
+              <p class='col-7'>BNP Paribas
               </br>Agence Paris Rue de Bourgogne</p>
-              <div><em>Chargé d’Affaires sur la clientèle des Professionnels</em></div>
             </div>
+            <div>Chargé d’Affaires sur la clientèle des Professionnels</div>
             <div class='prev-next'>
               <i class="fas fa-fast-backward" id="previous-job1"></i>
               <span class='stage' id="job-one-three">1/3</span>
               <i class="fas fa-fast-forward" id="next-job1"></i>
             </div>
           </div>
-          <div class='d-none' id='job2'>
+          <div class='d-none jobs' id='job2'>
             <div class='row'>
-              <p class='col-4'>Avril 2014
+              <p class='col-5'>Avril 2014
               </br>Décembre 2017</p>
-              <p class='col-8'>BNP Paribas
+              <p class='col-7'>BNP Paribas
               </br>Agence Paris Jussieu</p>
-              <div>Conseiller Patrimonial</div>
             </div>
+            <div>Conseiller Patrimonial</div>
             <div class='prev-next'>
               <i class="fas fa-fast-backward" id="previous-job2"></i>
               <span class='stage' id="job-two-three">2/3</span>
               <i class="fas fa-fast-forward" id="next-job2"></i>
             </div>
           </div>
-          <div class='d-none' id='job3'>
+          <div class='d-none jobs' id='job3'>
             <div class='row'>
-              <p class='col-4'>Août 2012
+              <p class='col-5'>Août 2012
               </br>Octobre 2013</p>
-              <p class='col-8'>Cup of Media
+              <p class='col-7'>Cup of Media
               </br>Agence e-marketing et plateforme d’édition</p>
-              <div>Responsable commercial & Chargé de diffusion Belgique et Pays-Bas</div>
             </div>
+            <div>Responsable commercial & Chargé de diffusion Belgique et Pays-Bas</div>
             <div class='prev-next'>
               <i class="fas fa-fast-backward" id="previous-job3"></i>
               <span class='stage' id="job-three-three">3/3</span>
@@ -99,12 +99,15 @@
             </div>
           </div>
         </div>
-        <div class='formations mt-5 pl-5 pr-5 border-right border-left'>
+        <div class='formations pl-5 pr-5 border-right border-left'>
           <h5 id='formations' class='mb-4'>Formation</h5>
           <div id="formation1">
             <div class='row'>
               <p class='col-4'>2019</p>
               <p class='col-8'>Le Wagon</p>
+            </div>
+            <div>
+              Bootcamp Full Stack Développement et programmation
             </div>
             <div class='prev-next'>
               <i class="fas fa-fast-backward" id="previous-formation1"></i>
@@ -116,8 +119,8 @@
             <div class='row'>
               <p class='col-4'>2007-2011</p>
               <p class='col-8'>EDHEC Business School</p>
-              <div>Master in Management</div>
             </div>
+            <div>Master in Management</div>
             <div class='prev-next'>
               <i class="fas fa-fast-backward" id="previous-formation2"></i>
               <span class='stage' id="formation-two-four">2/4</span>
@@ -128,8 +131,8 @@
             <div class='row'>
               <p class='col-4'>2005-2007</p>
               <p class='col-8'>Cité scolaire Rodin, Paris XIIIème</p>
-              <div>Classe préparatoire aux Grandes Ecoles de Commerce, voie économique</div>
             </div>
+            <div>Classe préparatoire aux Grandes Ecoles de Commerce, voie économique</div>
             <div class='prev-next'>
               <i class="fas fa-fast-backward" id="previous-formation3"></i>
               <span class='stage' id="formation-three-four">3/4</span>
@@ -138,10 +141,12 @@
           </div>
           <div class='d-none' id="formation4">
             <div class='row'>
-              <p class='col-4'><em>2005</em></p>
+              <p class='col-4'>2005</p>
               <p class='col-8'>Institut privé Épin (94)</p>
-              <div>Bac ES
-              </br>Mention: Bien</div>
+            </div>
+            <div>
+              <div>Bac ES</div>
+              <div>Mention: Bien</div>
             </div>
             <div class='prev-next'>
               <i class="fas fa-fast-backward" id="previous-formation4"></i>
@@ -150,7 +155,7 @@
             </div>
           </div>
         </div>
-        <div class='skills mt-5 pl-5 pr-5'>
+        <div class='skills pl-5 pr-5 border-right'>
           <h5 id='skills' class='mb-4'>Skills</h5>
           <div class='row'>
             <p class='col-4'>Langues</p>
