@@ -15,11 +15,11 @@
         <h1>David TOUITOU</h1>
         <h6 id='my-search'>Je viens de terminer la formation du Wagon et suis à la recherche d'un poste de développeur, idéalement dans une entreprise jeune, dynamique et avec un projet ambitieux.</h6>
         <div id='links'>
-          <div class='tel-email link'>
+          <div class='link tel-email'>
             <i class="fas fa-phone-square link-icon" id="tel"></i>
             <span class='d-none' id='insert-tel'>06 84 04 84 85</span>
           </div>
-          <div class='tel-email link'>
+          <div class='link tel-email'>
             <i class="fas fa-at link-icon" id="email"></i>
             <span class='d-none' id='insert-email'>david.touitou.dev@gmail.com</span>
           </div>
@@ -32,87 +32,131 @@
         </div>
       </div>
     </div>
-    <div class='row'>
-      <div class='col-4' id='avant'>
-        <p>BEFORE LE WAGON...</p>
-        <div class='parcours'>
-          <h5>Parcours professionnel</h5>
-          <div class='row' id='job1'>
-            <p class='col-4'>Depuis janvier 2018</p>
-            <p class='col-8'>BNP Paribas
-            </br>Agence Paris Rue de Bourgogne
-            </br>Chargé d’Affaires sur la clientèle des Professionnels</p>
+    <div class='content p-3'>
+
+      <!-- NAVBAR -->
+      <div class='nav'>
+        <p class='on' id='during'>DURING LE WAGON...</p>
+        <p class='off' id='before'>BEFORE LE WAGON...</p>
+      </div>
+
+      <!-- WORKS DURING LE WAGON -->
+      <div id='wagon'>
+        <div class='nav ligne'>
+          <div>
+            <a href="https://joorney-rbnb.herokuapp.com" target="_blank"><img src="player.png" alt="Mon projet Player" width="339" height="191" class='websites'></a>
           </div>
-          <div class='row d-none' id='job2'>
-            <p class='col-4'>Avril 2014
-            </br>Décembre 2017</p>
-            <p class='col-8'>BNP Paribas
-            </br>Agence Paris Jussieu
-            </br>Conseiller Patrimonial</p>
+          <div>
+            <a href="https://joorney.herokuapp.com" target="_blank"><img src="joorney.png" alt="Mon projet Player" width="339" height="191" class='websites'></a>
           </div>
-          <div class='row d-none' id='job3'>
-            <p class='col-4'>Août 2012
-            </br>Octobre 2013</p>
-            <p class='col-8'>Cup of Media
-            </br>Agence e-marketing et plateforme d’édition
-            </br>Responsable commercial & Chargé de diffusion Belgique et Pays-Bas</p>
+          <iframe width="339" height="191" src="https://www.youtube.com/embed/hb8TT6Z1ptE#t=1h29m10s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class='websites'></iframe>
+        </div>
+      </div>
+
+      <!-- FORMATION ET PARCOURS PRO -->
+      <div class='d-none' id='avant'>
+        <div class='parcours mt-5 pl-5 pr-5'>
+          <h5 id='parcours' class='mb-4'>Parcours professionnel</h5>
+          <div id='job1'>
+            <div class='row'>
+              <p class='col-4'>Depuis janvier 2018</p>
+              <p class='col-8'>BNP Paribas
+              </br>Agence Paris Rue de Bourgogne</p>
+              <div><em>Chargé d’Affaires sur la clientèle des Professionnels</em></div>
+            </div>
+            <div class='prev-next'>
+              <i class="fas fa-fast-backward" id="previous-job1"></i>
+              <span class='stage' id="job-one-three">1/3</span>
+              <i class="fas fa-fast-forward" id="next-job1"></i>
+            </div>
+          </div>
+          <div class='d-none' id='job2'>
+            <div class='row'>
+              <p class='col-4'>Avril 2014
+              </br>Décembre 2017</p>
+              <p class='col-8'>BNP Paribas
+              </br>Agence Paris Jussieu</p>
+              <div>Conseiller Patrimonial</div>
+            </div>
+            <div class='prev-next'>
+              <i class="fas fa-fast-backward" id="previous-job2"></i>
+              <span class='stage' id="job-two-three">2/3</span>
+              <i class="fas fa-fast-forward" id="next-job2"></i>
+            </div>
+          </div>
+          <div class='d-none' id='job3'>
+            <div class='row'>
+              <p class='col-4'>Août 2012
+              </br>Octobre 2013</p>
+              <p class='col-8'>Cup of Media
+              </br>Agence e-marketing et plateforme d’édition</p>
+              <div>Responsable commercial & Chargé de diffusion Belgique et Pays-Bas</div>
+            </div>
+            <div class='prev-next'>
+              <i class="fas fa-fast-backward" id="previous-job3"></i>
+              <span class='stage' id="job-three-three">3/3</span>
+              <i class="fas fa-fast-forward" id="next-job3"></i>
+            </div>
           </div>
         </div>
-        <div class="d-flex justify-content-between">
-          <div id="previous-job">
-            <i class="fas fa-fast-backward"></i>
+        <div class='formations mt-5 pl-5 pr-5 border-right border-left'>
+          <h5 id='formations' class='mb-4'>Formation</h5>
+          <div id="formation1">
+            <div class='row'>
+              <p class='col-4'>2019</p>
+              <p class='col-8'>Le Wagon</p>
+            </div>
+            <div class='prev-next'>
+              <i class="fas fa-fast-backward" id="previous-formation1"></i>
+              <span class='stage' id="formation-one-four">1/4</span>
+              <i class="fas fa-fast-forward" id="next-formation1"></i>
+            </div>
           </div>
-          <div id="next-job">
-            <i class="fas fa-fast-forward"></i>
+          <div class='d-none' id="formation2">
+            <div class='row'>
+              <p class='col-4'>2007-2011</p>
+              <p class='col-8'>EDHEC Business School</p>
+              <div>Master in Management</div>
+            </div>
+            <div class='prev-next'>
+              <i class="fas fa-fast-backward" id="previous-formation2"></i>
+              <span class='stage' id="formation-two-four">2/4</span>
+              <i class="fas fa-fast-forward" id="next-formation2"></i>
+            </div>
+          </div>
+          <div class='d-none' id="formation3">
+            <div class='row'>
+              <p class='col-4'>2005-2007</p>
+              <p class='col-8'>Cité scolaire Rodin, Paris XIIIème</p>
+              <div>Classe préparatoire aux Grandes Ecoles de Commerce, voie économique</div>
+            </div>
+            <div class='prev-next'>
+              <i class="fas fa-fast-backward" id="previous-formation3"></i>
+              <span class='stage' id="formation-three-four">3/4</span>
+              <i class="fas fa-fast-forward" id="next-formation3"></i>
+            </div>
+          </div>
+          <div class='d-none' id="formation4">
+            <div class='row'>
+              <p class='col-4'><em>2005</em></p>
+              <p class='col-8'>Institut privé Épin (94)</p>
+              <div>Bac ES
+              </br>Mention: Bien</div>
+            </div>
+            <div class='prev-next'>
+              <i class="fas fa-fast-backward" id="previous-formation4"></i>
+              <span class='stage' id="formation-four-four">4/4</span>
+              <i class="fas fa-fast-forward" id="next-formation4"></i>
+            </div>
           </div>
         </div>
-        <div class='mt-5'>
-          <h5>Formation</h5>
+        <div class='skills mt-5 pl-5 pr-5'>
+          <h5 id='skills' class='mb-4'>Skills</h5>
           <div class='row'>
-            <p class='col-4'>2007-2011</p>
-            <p class='col-8'>EDHEC Business School
-            </br>Master in Management</p>
-          </div>
-          <div class='row d-none'>
-            <p class='col-4'>2005-2007</p>
-            <p class='col-8'>Cité scolaire Rodin, Paris XIIIème
-            </br>Classe préparatoire aux Grandes Ecoles de Commerce, voie économique</p>
-          </div>
-          <div class='row d-none'>
-            <p class='col-4'>2005</p>
-            <p class='col-8'>Institut privé Épin (94)
-            </br>Bac ES
-            </br>Mention: Bien</p>
-          </div>
-          <div class='row d-none'>
             <p class='col-4'>Langues</p>
             <p class='col-8'>Français, langue maternelle
             </br>Anglais, courant
             </br>Espagnol, bon niveau</p>
-          </div>
-        </div>
-        <div class="d-flex justify-content-between">
-          <div id="previous-formation">
-            <i class="fas fa-fast-backward"></i>
-          </div>
-          <div id="next-formation">
-            <i class="fas fa-fast-forward"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class='col-8' id='wagon'>
-        <div class='row ligne'>
-          <div>
-          <a href="https://joorney-rbnb.herokuapp.com" target="_blank"><img src="player.png" alt="Mon projet Player" width="339" height="191" class='websites'></a>
-          </div>
-          <div>
-          <a href="https://joorney.herokuapp.com" target="_blank"><img src="joorney.png" alt="Mon projet Player" width="339" height="191" class='websites'></a>
-          </div>
-        </div>
-        <div class='row ligne'>
-          <div class='mt-3 ml-3'>
-            <iframe width="339" height="191" src="https://www.youtube.com/embed/hb8TT6Z1ptE#t=1h29m10s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class='websites'></iframe>
           </div>
         </div>
       </div>

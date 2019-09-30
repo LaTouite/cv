@@ -1,24 +1,47 @@
-span {
-  color: white;
+body{
+  height: 100vh;
 }
 
 p {
   padding-right: 0 !important;
 }
 
+h5 {
+  padding-left: 10px;
+}
+
+#parcours {
+  background-color: #64b2cd;
+}
+
+#formations  {
+  background-color: #64b2cd;
+}
+
+#skills {
+  background-color: #64b2cd;
+}
+
+h1 {
+  color: white;
+}
+
 h6{
   padding-left: 20px;
   padding-right: 20px;
+  color: white;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 
 #pic-name {
-  background-color: #e6a400;
+  background-color: #2a1a5e;
   height: 200px;
   text-align: center;
   align-items: center;
-}
-
-#my-pic {
 }
 
 #my-search {
@@ -26,35 +49,57 @@ h6{
   padding-right: 150px;
 }
 
-#links {
+#links, .prev-next {
   display: flex;
   justify-content: center;
 }
 
-#insert-tel, #insert-email {
-  padding-left: 10px;
+#links {
+  margin-top: 30px;
 }
 
-.last-link {
-  display: flex;
-  /*border: 1px solid red;*/
+#links span {
+  color: white;
 }
 
 .link {
   width: 270px;
-  display: flex;
-  /*border: 1px solid red;*/
 }
 
 .tel-email {
-  display: flex;
   align-items: center;
+}
+
+.link, #avant {
+  display: flex;
+}
+
+#insert-tel, #insert-email, .link {
+  padding-left: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ligne {
+  margin-top: 30px;
+}
+
+.on {
+  font-weight: bold;
+  border-bottom: 3px solid #64b2cd;
+}
+
+.content {
+  background-color: white;
+  height: 25em;
 }
 
 .link-icon {
   font-size: 30px;
-  color: #e4f2f0;
-  /*text-shadow: 0px 0px 5px grey;*/
+  color: white;
 }
 
 #insert {
@@ -63,21 +108,6 @@ h6{
 
 .link-icon:hover {
   color: #64b2cd;
-/*  text-shadow: 0px 0px 2px grey;*/
-}
-
-#avant {
-  background-color: #64b2cd;
-}
-
-#wagon {
-  background-color: #e4f2f0;
-}
-
-.ligne {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .websites {
@@ -91,14 +121,43 @@ h6{
   box-shadow: 0px 0px 10px grey;
 }
 
-.cv {
-  display: flex;
+#avant > div {
+  width: 33.33%;
 }
 
-#avant {
-  padding-left: 20px;
-}
-
-.parcours {
+#avant > div > div > .row {
   height: 150px;
+}
+
+p.col-4 {
+  padding-left: 0px !important;
+}
+
+.prev-next {
+  align-items: center;
+}
+
+.stage {
+  width: 40px;
+  text-align: center;
+}
+
+#during, #before {
+  font-weight: bold;
+}
+
+.off {
+  color: grey;
+}
+
+.on{
+  color: #64b2cd;
+}
+
+#during:hover {
+  color: #64b2cd;
+}
+
+#before:hover {
+  color: #64b2cd;
 }
