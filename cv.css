@@ -1,6 +1,7 @@
 body {
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
+  padding: 0;
 }
 
 body div {
@@ -26,6 +27,32 @@ p {
   padding-right: 0 !important;
 }
 
+#my-pic {
+  /*position: relative;*/
+}
+
+#my-pic > img {
+  margin: 0px 20px;
+}
+
+#my-cv {
+  position: relative;
+  top:30px;
+  background-color: white;
+  padding: 8px 8px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+}
+
+#my-cv:hover {
+  background-color: #64b2cd;
+}
+
+.dl-cv {
+  font-size: 20px;
+  color: #2a1a5e;
+}
+
 #during, #before {
   font-weight: bold;
 }
@@ -47,8 +74,10 @@ p {
 }
 
 #batch {
-  padding-left: 100px;
-  padding-right: 100px;
+}
+
+#batch > p {
+  font-size: 16px;
 }
 
 .row {
@@ -106,13 +135,27 @@ p {
   justify-content: space-evenly;
 }
 
-.nav > div {
+.nav > div > h5 {
+  height: 100px;
+}
+
+#wagon {
+  margin: 0px 100px;
+}
+
+.sb {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sb > div {
   width: 339px;
   text-align: justify;
 }
 
-.nav > div > h5 {
-  height: 100px;
+.sb > div > p {
+  height: 80px;
 }
 
 #avant, .ligne {
@@ -151,14 +194,6 @@ p {
 .websites:hover {
   opacity: 1;
   box-shadow: 0px 0px 10px grey;
-}
-
-#avant > div {
-  width: 33.33%;
-}
-
-#avant > div > div > .row {
-  height: 100px;
 }
 
 p.col-5, p.col-4, p.col-7 {
