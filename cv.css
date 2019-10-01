@@ -162,6 +162,10 @@ p {
   margin-top: 30px;
 }
 
+#avant > div {
+  width: 33.33em;
+}
+
 .on {
   font-weight: bold;
   border-bottom: 3px solid #64b2cd;
